@@ -38,6 +38,13 @@ public class BigONotation {
             System.out.println(name); // O(m : input string)
         } // total complexity : O(m + n) -> 0(n : as input increases linearly)
 
+        // *O(n^2) n : input parameters
+        for(int first: numbers){
+            for(int second: numbers){
+                System.out.println(first + ", " + second);
+            } // We are printing all combinations of numbers in the array in nested loops
+        }
+
 
 
     }
