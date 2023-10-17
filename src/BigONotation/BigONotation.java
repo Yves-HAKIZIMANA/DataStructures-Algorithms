@@ -45,6 +45,21 @@ public class BigONotation {
             } // We are printing all combinations of numbers in the array in nested loops
         }
 
+        // *O(n log n) :binary search
+        // assume we have the array of ten numbers
+        // int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        // Then we have to search the number ten , starting in the middle and see if the number is smaller or larger than the element we are searching for, then taking to decision to continue left or right.
+        // hence we reduced the steps required by half and making this searching quicker.
+
+
+        // *02^n : exponential algorithm but it's opposite of the logarithmic
+        // *Conclusion
+        //1. CONSTANT O(1)
+        //2. LOGARITHMIC O(logn)
+        //3. LINEAR O(n)
+        //4. QUADRATIC O(n^2)
+        //5. EXPONENTIAL O(2^n) n: input size
+
 
 
     }
