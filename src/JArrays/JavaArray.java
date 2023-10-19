@@ -1,5 +1,6 @@
 package JArrays;
 
+import java.sql.Array;
 import java.util.Arrays;
 
 public class JavaArray {
@@ -19,6 +20,7 @@ public class JavaArray {
         int[] numbers = {10, 20, 30};
         System.out.println(numbers.length); // this returns the number of elements in  the array
         System.out.println(Arrays.toString(numbers)); // Printing the elements of the array
+
     }
 
 
